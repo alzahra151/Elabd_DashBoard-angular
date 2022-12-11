@@ -23,6 +23,7 @@ import { OrderComponent } from './components/order/order.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { SideOffcanvasComponent } from './components/side-offcanvas/side-offcanvas.component';
 import { UpdateUserProfileComponent } from './components/update-user-profile/update-user-profile.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UpdateUserProfileComponent } from './components/update-user-profile/upd
     OrderComponent,
     UserProfileComponent,
     SideOffcanvasComponent,
-    UpdateUserProfileComponent
+    UpdateUserProfileComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
