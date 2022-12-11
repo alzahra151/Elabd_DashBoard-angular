@@ -10,6 +10,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { SettingProductComponent } from './components/setting-product/setting-product.component';
 import { SideOffcanvasComponent } from './components/side-offcanvas/side-offcanvas.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import {UpdateUserProfileComponent} from './components/update-user-profile/update-user-profile.component'
 import { UserStatusComponent } from './components/user-status/user-status.component';
 import { UsersComponent } from './components/users/users.component';
 import { AuthGuard } from './gaurds/auth.guard';
@@ -31,6 +32,8 @@ const routes: Routes = [
      {path:"userProfile" ,component:UserProfileComponent,  canActivate:[AuthGuard]},
     //  {path:"sideoff" ,component:SideOffcanvasComponent,  canActivate:[AuthGuard]},
     {path:"userinfo" ,component:UserStatusComponent,  canActivate:[AuthGuard]},
+    {path:"updateProfile" ,component:UpdateUserProfileComponent,  canActivate:[AuthGuard]},
+
   ]
 },
  {path:"login" ,component:LoginComponent ,canActivate:[LoginGuard]},

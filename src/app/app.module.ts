@@ -22,6 +22,7 @@ import { UserStatusComponent } from './components/user-status/user-status.compon
 import { OrderComponent } from './components/order/order.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { SideOffcanvasComponent } from './components/side-offcanvas/side-offcanvas.component';
+import { UpdateUserProfileComponent } from './components/update-user-profile/update-user-profile.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { SideOffcanvasComponent } from './components/side-offcanvas/side-offcanv
     UserStatusComponent,
     OrderComponent,
     UserProfileComponent,
-    SideOffcanvasComponent
+    SideOffcanvasComponent,
+    UpdateUserProfileComponent
   ],
   imports: [
     BrowserModule,
